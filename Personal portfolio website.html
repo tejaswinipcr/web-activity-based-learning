@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Portfolio</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6ff;
+  text-align: center;
+}
+header {
+  background: #4936a2;
+  color: white;
+  padding: 35px;
+}
+nav {
+  background: #30216e;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  margin: 12px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: yellow;
+}
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 25px;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ddd;
+  animation: fade 1s ease;
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+h2 { color: #4936a2; }
+button {
+  background: #4936a2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+footer {
+  background: #30216e;
+  color: white;
+  padding: 15px;
+}
+@media(max-width: 600px) {
+  nav a {
+    display: inline-block;
+    margin: 8px;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>My Personal Portfolio</h1>
+  <p>Web Developer | Student</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I am a student interested in
+  web development and programming.</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <p>B.Tech - Computer Science</p>
+  <p>College: ABC Engineering College</p>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <p>HTML, CSS, JavaScript, Python</p>
+  <h2>Hobbies</h2>
+  <p>Reading, Coding, Music</p>
+</section>
+
+<section>
+  <h2>Projects & Achievements</h2>
+  <p>Project: Personal Portfolio Website</p>
+  <p>Achievement: Completed Web Development Basics</p>
+  <button onclick="showResume()">View Resume</button>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: student@example.com</p>
+  <button onclick="contact()">Contact</button>
+</section>
+
+<footer>
+  <p>&copy; 2026 My Portfolio</p>
+</footer>
+
+<script>
+function showResume() {
+  alert("Add your resume PDF link here.");
+}
+function contact() {
+  alert("Email: student@example.com");
+}
+</script>
+
+</body>
+</html>
