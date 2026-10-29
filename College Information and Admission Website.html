@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College Website</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef5fa;
+}
+header {
+  background: #004b87;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+nav {
+  background: #02345c;
+  text-align: center;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+nav a:hover { color: yellow; }
+.banner {
+  background: #b8e1ff;
+  text-align: center;
+  padding: 40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 25px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px #ccc;
+  text-align: center;
+}
+.card h3 { color: #004b87; }
+section {
+  padding: 25px;
+  text-align: center;
+}
+button {
+  background: #004b87;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background: #02345c;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ABC Engineering College</h1>
+  <p>Excellence in Education</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#admission">Admissions</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="banner">
+  <h2>Welcome to Our College</h2>
+  <p>Learn Today, Lead Tomorrow</p>
+
+</div>
+
+<section id="about">
+  <h2>About Our Institution</h2>
+  <p>Our college provides quality education,
+  modern laboratories and excellent facilities.</p>
+</section>
+
+<section id="courses">
+  <h2>Departments & Courses</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Computer Science</h3>
+      <p>B.Tech in Computer Science</p>
+    </div>
+    <div class="card">
+      <h3>Electronics</h3>
+      <p>B.Tech in ECE</p>
+    </div>
+    <div class="card">
+      <h3>Mechanical</h3>
+      <p>B.Tech in Mechanical Engineering</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Faculty & Facilities</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Faculty</h3>
+      <p>Experienced professors and mentors</p>
+    </div>
+    <div class="card">
+      <h3>Campus Facilities</h3>
+      <p>Library, Labs, Sports and Wi-Fi</p>
+    </div>
+    <div class="card">
+      <h3>Events</h3>
+      <p>Technical Fest and Cultural Events</p>
+    </div>
+  </div>
+</section>
+
+<section id="admission">
+  <h2>Admission Procedure</h2>
+  <p>Step 1: Complete the application</p>
+  <p>Step 2: Submit required documents</p>
+  <p>Step 3: Attend admission counselling</p>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: admissions@example.com</p>
+  <p>Phone: 9876543210</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 ABC Engineering College</p>
+</footer>
+
+</body>
+</html>
